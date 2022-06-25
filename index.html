@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/Avengers-icon.png">
+    <title>Marvel vs Capcom Infinite - Estudo</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/var.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/animations.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+</head>
+
+<body>
+    <audio src="assets/sounds/character-select.mp3" id="audio" loop="loop" autoplay="autoplay"></audio>
+    <main>
+        <header class="header">
+            <h1 class="title">Select your character</h1>
+        </header>
+        <div class="logotype">
+            <img src="assets/images/mvci-logo.png" alt="Logotype">
+        </div>
+        <div class="character_selection">
+            <div class="selected_character character_player_1">
+                <img src="./assets/images/thor.png" alt="Personagem selecionado pelo jogador 1" id="character_player_1">
+                <div class="character_name">
+                    <h2 id="player1">Thor</h2>
+                </div>
+            </div>
+            <ul class="character_list">
+                <li class="selected character" id="thor" data-name="Thor">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/thor.jpg" alt="Thor">
+                </li>
+                <li class="character" id="iron-man" data-name="Iron Man">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/iron-man.jpg" alt="Iron Man">
+                </li>
+                <li class="character" id="black-widow" data-name="Black Widow">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/black-widow.jpg" alt="Black Widow">
+                </li>
+                <li class="character" id="hulk" data-name="Hulk">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/hulk.jpg" alt="Hulk">
+                </li>
+                <li class="character" id="captain-america" data-name="Captain America">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/captain-america.jpg" alt="Captain America">
+                </li>
+                <li class="player_2_selected character" id="ultron" data-name="Ultron">
+                    <span class="tag">2P</span>
+                    <img src="./assets/images/ultron.jpg" alt="Ultron">
+                </li>
+                <li class="character" id="captain-marvel" data-name="Captain Marvel">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/captain-marvel.jpg" alt="Captain Marvel">
+                </li>
+                <li class="character" id="nova" data-name="Nova">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/nova.jpg" alt="Nova">
+                </li>
+                <li class="character" id="black-panther" data-name="Black Panther">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/black-panther.jpg" alt="Black Panther">
+                </li>
+                <li class="character" id="spider-man" data-name="Spider Man">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/spider-man.jpg" alt="Spider Man">
+                </li>
+                <li class="character" id="venom" data-name="Venom">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/venom.jpg" alt="Venom">
+                </li>
+                <li class="character" id="thanos" data-name="Thanos">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/thanos.jpg" alt="Thanos">
+                </li>
+                <li class="character" id="ryu" data-name="Ryu">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/ryu.jpg" alt="Ryu">
+                </li>
+                <li class="character" id="Chun-Li" data-name="Chun Li">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/chun-li.jpg" alt="Chun Li">
+                </li>
+                <li class="character" id="mega-man" data-name="Mega Man">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/mega-man.jpg" alt="Mega Man">
+                </li>
+                <li class="character" id="zero" data-name="Zero">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/zero.jpg" alt="Zero">
+                </li>
+                <li class="character" id="jedah" data-name="Jedah">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/jedah.jpg" alt="Jedah">
+                </li>
+                <li class="character" id="nemesis" data-name="Nemesis">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/nemesis.jpg" alt="Nemesis">
+                </li>
+                <li class="character" id="arthur" data-name="Arthur">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/arthur.jpg" alt="Arthur">
+                </li>
+                <li class="character" id="dante" data-name="Dante">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/dante.jpg" alt="Dante">
+                </li>
+                <li class="character" id="haggar" data-name="Haggar">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/haggar.jpg" alt="Haggar">
+                </li>
+                <li class="character" id="strider-hiryu" data-name="Strider Hiryu">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/strider-hiryu.jpg" alt="Strider Hiryu">
+                </li>
+                <li class="character" id="morrigan" data-name="Morrigan">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/morrigan.jpg" alt="Morrigan">
+                </li>
+                <li class="character" id="firebrand" data-name="Firebrand">
+                    <span class="tag">1P</span>
+                    <img src="./assets/images/firebrand.jpg" alt="Firebrand">
+                </li>
+
+            </ul>
+            <div class="selected_character character_player_2">
+                <img src="./assets/images/ultron.png" alt="Personagem selecionado pelo jogador 1"
+                    id="character_player_2">
+                <div class="character_name">
+                    <h2>Ultron</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script/index.js"></script>
+    <script src="./script/sound.js"></script>
+</body>
+
+</html>
